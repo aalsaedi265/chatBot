@@ -125,5 +125,11 @@ def ask_user_for_sentence_and_produce_outPut():
         results=model.predict([turn_sentenceFromUser_to_BagOfWOrds(inp, words)])
         results_idx = numpy.argmax(results)#returns most likeable repsone in number form
         tag = labels[results_idx]#returns tag of the response, in english
-        print(tag)
+        
+        #will use the joson to match respons with tags
+        for tg in data['intents']: #loadin from the json file on line 16
+            if tg['tag'] ==tag:
+                res = tg['responses']
+        print(random.choice(res))
+                
 ask_user_for_sentence_and_produce_outPut()
