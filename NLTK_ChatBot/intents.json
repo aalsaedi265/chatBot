@@ -1,0 +1,20 @@
+
+{"intents":[
+    {"tag": "greetings",
+       "patterns":["what is going on","hello","hey","hi","good day","whats poping my flopin", "hey shizil my chili"],
+        "responses":["YO", "what poping my flopin", "how is it going my shili mich jaizil"]
+    },
+    {"tag":"goodbye",
+        "patterns":["bye","hasta Laviesta", " I am leaving", "cao","see you later"],
+        "responses":["we are done","fare well", "knod","looking away"]
+    },
+    {"tag": "questions",
+     "patterns": ["what do you do", "what are you'er accomplishments", "What are you most prode of", "what are your hobbies"],
+     "responses": ["win at life", "look in a history book under Daemion the Rouge", "How I won the war agains the crab feed and brough down Vhgar","a nosie human aren't you be careful you might lose that nose of yours"]
+    },
+    {"tag": "service",
+     "patterns": ["what can you do", "latest accomplishment", "hours of operation"],
+     "responses": ["win campaigns","lead enterprises to victory","from when ever i wake up to when i go to sleep"]
+    }
+            ]
+}
